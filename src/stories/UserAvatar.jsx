@@ -9,11 +9,11 @@ export const UserAvatar = ({ name, color=undefined }) => (
 
 UserAvatar.propTypes = {
     /**
-     * required name of user;
+     * required name of user
      */
     name: PropTypes.string.isRequired,
      /**
-     * required name of user;
+     * background color of the avatar
      */
     color: PropTypes.string,
   };
